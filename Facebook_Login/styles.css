@@ -1,0 +1,399 @@
+body{
+	margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+div {
+	display: block;
+}
+
+#global-container{
+	margin: 0 auto;
+    position: relative;
+}
+
+#fb-content{
+	margin: 0;
+    outline: none;
+    padding: 0;
+    width: auto;
+    height: 720px;
+}
+
+#smaller-div{
+	padding-bottom: 110px;
+    padding-top: 72px;
+    background: #f0f2f5;
+}
+
+#shrink-div{
+	margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+    display: flex;			
+  	justify-content: space-between;	
+	align-items: flex-start;
+	flex-direction: row;
+}
+
+#logo-text, #left-box{
+	font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#logo-image{
+	padding: 112px 0 13px;
+}
+
+#logo{
+	height: 106px;
+    margin: -28px;
+}
+
+#text{
+	font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    
+    margin: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 900px) {	
+	#shrink-div{
+		flex-direction: column;
+    	text-align: center;
+    	justify-content: flex-start;
+  		align-items: center;
+  		padding-top: 40px;
+		}
+
+	#smaller-div{
+		padding-top: 0px;
+		padding-bottom: 164px;
+	}
+
+	#text-div{
+		display: flex;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	#text{
+		flex-direction: column;
+    	text-align: center;
+	}
+
+	#logo-image{
+		padding-top: 0px;
+		margin-top: 0px;
+		padding-bottom: 17px;
+	}
+
+	#login-create{
+		margin-left: 4px;
+	}
+}
+
+@media screen and (max-width: 1075px){
+	#text{
+		font-size: 24px;
+    	line-height: 28px;
+    	width: 364px;
+	}
+
+	#shrink-div{
+		height: 496px;
+    	margin: 0 40px;
+ 	   	width: auto;
+	}
+}
+
+.input-block{
+	width: 330px;
+	height: 22px;
+	padding: 14px 16px 14px 16px;
+	border: 1px solid rgb(221, 223, 226);
+	border-radius: 6px;
+	font-size: 17px;
+	font-weight: 400;
+	color: rgb(144,148,156);
+	color: black;
+}
+
+.mail-pass{
+	width: 364px;
+	height: 52px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+input[type=text]:focus, input[type="password"]:focus{
+	outline-color: blue;
+    outline-style: none !important;
+    outline-width: initial !important;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+#extra-box{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+}
+
+#login-box{
+	background-color: white;
+	width: 396px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;	
+	align-items: center;
+	padding-bottom: 24px;
+	padding-top: 10px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	margin-top: 40px;
+	margin-right: 0;
+}
+
+
+
+input[type="submit"]{
+	background-color: #1877f2;
+	color: white;
+}
+
+input[type="submit"]:hover{
+	background-color: blue;
+}
+
+#forgot-password{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 90%;
+	font-size: 14px;
+	font-weight: 500;
+	color: #2883f4;
+	margin-top: -1px;
+	padding-bottom: 1px;
+}
+
+#new-acc-div{
+	margin-top: 20px;
+	padding-top: 6px;
+}
+
+#new-acc{
+	background-color: #42b72a;
+	color: white;
+	width: 226px;
+	height: 48px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border: 0px;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+#new-acc:hover{
+	background-color: green;
+}
+
+#create{
+	background-color: #f0f2f5;
+	margin-top: 28px;
+	width: 360px;
+	height: 36px;
+	font-size: 14px;
+	font-weight: 400;
+	display: flex;
+  	justify-content: center;	
+	align-items: center;
+	flex-direction: column;
+	margin-right: 0;
+	width: 396px;
+	/*font-size: 20px;*/
+}
+
+#flexdiv{
+	display: flex;
+  	justify-content: center;	
+	align-items: center;
+	margin-top: 16px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+#border{
+	min-height: 20px;
+	width: 364px;
+	border-bottom: solid 1px rgb(218, 221, 225);
+}
+
+#create a{
+	color: black;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+#login{
+	font-weight: 700;
+	font-size: 20px;
+	min-width: 364px;
+	min-height: 48px;
+	padding: 0px 16px;
+	border-radius: 6px;
+	border: 0px;
+}
+
+#login-button-div{
+	padding-top: 6px;
+	max-width: 396px;
+	height: 48px;
+}
+
+a, input[type="submit"], input[type="button"]{
+	cursor: pointer;
+}
+
+#login-create{
+	height: 496px;
+}
+
+
+
+#right-box{
+	margin: 0;
+	margin-right: 4px;
+}
+
+#rame{
+	text-align: center;
+	line-height: 1.34;
+	height: 132px;
+}
+
+ input[type="button"]{
+ 	padding-top: 0;
+ 	padding-bottom: 0;
+
+ }
+
+#languages input[type="button"]{
+	margin-left: 10px;
+}
+
+ .footer-tm{
+	display: flex;
+  	justify-content: center;	
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	flex-wrap: wrap;
+	font-size: 12px;
+	margin: 0 auto;
+    width: 980px;
+
+}
+
+.footer-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 1100px;
+	color: grey;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	
+}
+
+#languages{
+	padding-top: 8px;
+	border-bottom: 1px solid rgb(221, 223, 226);
+	padding-bottom: 8px;
+
+}
+
+.footer-div a {
+	color: #3d5a99;
+	padding-left: 10px;
+}
+
+#border{
+	min-height: 20px;
+	width: 364px;
+	border-bottom: solid 1px rgb(218, 221, 225);
+}
+
+#first-line{
+	margin-top: 8px;
+}
+
+#plus{
+	font-weight: bold;
+}
+
+#copyright{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 11px;
+}
+
+::placeholder{
+	color: #90949c;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: rgb(204, 208, 213);
+}
+
+ 
+
+ .footer-div a.first-item{
+	padding-left: 0;
+}
+
+.non-language-footer{
+	padding-bottom: 3px;
+}
+
+.non-language-footer a{
+	padding-left: 20px;
+}
+

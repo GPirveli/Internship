@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	background-color: rgb(60,62,66);
+}
+
+header{
+	background-color: rgb(60,62,66);
+	border-bottom: 8px solid rgb(123,171,72);
+}
+
+#logo{
+	width: 300px;
+	margin-left: 350px;
+	margin-top: 50px;
+}
+
+article{
+	background-color: rgb(85,85,85);
+	border-bottom: 8px solid rgb(123,171,72);
+}
+
+#article-div{
+	display: flex;
+	justify-content: row;
+}
+
+#sudoku-image{
+	width: 384px;
+	margin-left: 384px;
+}
+
+#article-text-div{
+	width: 768px;
+}
+
+#service-offline{
+	color: rgb(158, 248, 60);
+	margin-bottom: 0px;
+}
+
+#not-available{
+	color: white;
+	margin-top: 0px;
+}
+
+.article-text{
+	color: white;
+}
+
+footer{
+	background-color: rgb(60,62,66);
+}
+
+#footer-div{
+	margin-left: 384px;
+	margin-right: 384px;
+	margin-top: -40px;
+}
+
+#copyright-div{
+	background-color: rgb(85,85,85);
+	width: 768px;
+	margin-left: 384px;
+	margin-right: 384px;
+	position: fixed;
+	bottom: 0;
+	text-align: right;
+	color: white;
+	
+}
+
+#pink-ball{
+	width: 180px;
+	margin-left: 355px;
+	margin-top: -115px;
+}
